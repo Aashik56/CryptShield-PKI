@@ -1,0 +1,6 @@
+from PIL import Image
+
+# Create a 100x100 red square image
+img = Image.new('RGB', (100, 100), color=(255, 0, 0))
+img.save('original_image.png')
+print("Test image 'original_image.png' created!")
